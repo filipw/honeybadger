@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HoneyBadger/HoneyBadger.csproj" />
+    <Project Path="src/HoneyBadger.Onnx/HoneyBadger.Onnx.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HoneyBadger.Tests/HoneyBadger.Tests.csproj" />
+    <Project Path="tests/HoneyBadger.Onnx.Tests/HoneyBadger.Onnx.Tests.csproj" />
+  </Folder>
+</Solution>

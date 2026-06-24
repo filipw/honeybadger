@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Tokenization (shared by the optional ONNX bridge) -->
+    <PackageVersion Include="Microsoft.ML.Tokenizers" Version="2.0.0" />
+
+    <!-- PII detection -->
+    <PackageVersion Include="libphonenumber-csharp" Version="9.0.32" />
+
+    <!-- ONNX bridge consumes Kyoto -->
+    <PackageVersion Include="Kyoto" Version="0.1.0" />
+
+    <!-- Source Link -->
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+
+    <!-- Testing -->
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="FluentAssertions" Version="7.0.0" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.2" />
+  </ItemGroup>
+</Project>
