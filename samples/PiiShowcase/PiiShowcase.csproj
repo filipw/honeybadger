@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/HoneyBadger/HoneyBadger.csproj" />
+    <ProjectReference Include="../../src/HoneyBadger.Onnx/HoneyBadger.Onnx.csproj" />
+  </ItemGroup>
+</Project>
